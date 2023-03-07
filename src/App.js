@@ -1,10 +1,7 @@
 import React from "react";
-import Content from "./components/Content";
-import Menu from "./components/Menu";
-import './project2.css';
-import './normalize.css';
-import './main.css';
-import Footer from "./components/Footer";
+import Content from "./components/pages/Content";
+import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
 
 // localhost:3000           -> Home
 // localhost:3000/stuff     -> Join
@@ -13,7 +10,7 @@ function App() {
   return (
     <div>
         <h1>Simple SPA</h1>
-        <Menu />
+        <Header />
         <Content />
         <Footer />
     </div>

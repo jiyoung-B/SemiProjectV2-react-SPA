@@ -1,7 +1,7 @@
 import React from 'react';
 const Login = () => {
     return (
-        <div>
+
             <main>
                 <h2>로그인</h2>
                 <form name="login">
@@ -14,7 +14,7 @@ const Login = () => {
                     </div>
                 </form>
             </main>
-        </div>
+
     );
 };
 

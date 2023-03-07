@@ -1,7 +1,7 @@
 import React from 'react';
 const Join = () => {
     return (
-        <div>
+
         <main>
             <h2>회원가입</h2>
             <form name="join">
@@ -21,7 +21,7 @@ const Join = () => {
                  </div>
             </form>
         </main>
-        </div>
+
     );
 };
 
